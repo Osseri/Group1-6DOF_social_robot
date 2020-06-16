@@ -1,0 +1,420 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find social_robot_description)/urdf/social_robot.structure.rhand.xacro" />
+
+  <!-- right arm -->
+  <xacro:macro name="social_robot_r_arm" params="parent">
+
+  <!-- right shoulder pitch joint -->
+  <joint name="RShoulder_Pitch" type="revolute">
+    <origin
+      xyz="0 -0.1065 0.2815"
+      rpy="0 0 0" />
+    <parent
+      link="${parent}" />
+    <child
+      link="RShoulder_Pitch" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="1000"
+      velocity="100"
+      lower="${-150.0*pi/180.0}"
+      upper="${150.0*pi/180.0}" />
+    <dynamics
+      damping="0.1"
+      friction="0.0" />
+  </joint>
+  <xacro:insert_transmission name="RShoulder_Pitch" />
+
+  <!-- right shoulder pitch link -->
+  <link name="RShoulder_Pitch">
+    <inertial>
+      <origin
+        xyz="4.6871137e-04 -4.7922220e-02 -5.9742066e-07"
+        rpy="0 0 0" />
+      <mass
+        value="2.5106828E-01" />
+      <inertia
+        ixx="7.8167957e-04"
+        ixy="6.2373043e-06"
+        ixz="2.1638484e-09"
+        iyy="1.0532761e-04"
+        iyz="-2.4776853e-09"
+        izz="7.7621568e-04" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- right shoulder roll joint -->
+  <joint name="RShoulder_Roll" type="revolute">
+    <origin
+      xyz="0 -0.06375 0"
+      rpy="0 0 0" />
+    <parent
+      link="RShoulder_Pitch" />
+    <child
+      link="RShoulder_Roll" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      effort="1000"
+      velocity="100"
+      lower="${-90*pi/180.0}"
+      upper="${90*pi/180.0}" />
+    <dynamics
+      damping="0.1"
+      friction="0.0" />
+  </joint>
+  <xacro:insert_transmission name="RShoulder_Roll" />
+
+  <!-- right shoulder roll link -->
+  <link name="RShoulder_Roll">
+    <inertial>
+      <origin
+        xyz="2.6047442e-5 -6.9489221e-02 1.7513593e-05"
+        rpy="0 0 0" />
+      <mass
+        value="2.4899507e-01" />
+      <inertia
+        ixx="1.5813034e-03"
+        ixy="3.2124803e-07"
+        ixz="-7.2719573e-09"
+        iyy="1.6009044e-04"
+        iyz="-2.6716959e-07"
+        izz="1.6224156e-03" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- right elbow pitch joint -->
+  <joint name="RElbow_Pitch" type="revolute">
+    <origin
+      xyz="0 -0.09525 0"
+      rpy="0 0 0" />
+    <parent
+      link="RShoulder_Roll" />
+    <child
+      link="RElbow_Pitch" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="1000"
+      velocity="100"
+      lower="${-pi*0.9}"
+      upper="${pi*0.9}" />
+    <dynamics
+      damping="0.1"
+      friction="0.0" />
+  </joint>
+  <xacro:insert_transmission name="RElbow_Pitch" />
+
+  <!-- right elbow pitch link -->
+  <link name="RElbow_Pitch">
+    <inertial>
+      <origin
+        xyz="0.0 -6.7026195e-02 5.2754282e-04"
+        rpy="0 0 0" />
+      <mass
+        value="2.2953581e-01" />
+      <inertia
+        ixx="1.2018549e-03"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="6.9116644e-05"
+        iyz="8.9338855e-06"
+        izz="1.1951211e-03" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra3.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra3.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- right elbow yaw joint -->
+  <joint name="RElbow_Yaw" type="revolute">
+    <origin
+      xyz="0 -0.086 0"
+      rpy="0 0 0" />
+    <parent
+      link="RElbow_Pitch" />
+    <child
+      link="RElbow_Yaw" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="1000"
+      velocity="100"
+      lower="${-pi*0.9}"
+      upper="${pi*0.9}" />
+    <dynamics
+      damping="0.1"
+      friction="0.0" />
+  </joint>
+  <xacro:insert_transmission name="RElbow_Yaw" />
+
+  <!-- right elbow yaw -->
+  <link name="RElbow_Yaw">
+    <inertial>
+      <origin
+        xyz="-2.2532640e-04 -6.6117708e-02 2.7620342e-05"
+        rpy="0 0 0" />
+      <mass
+        value="2.3481741e-01" />
+      <inertia
+        ixx="1.3412658e-03"
+        ixy="-8.1401171e-07"
+        ixz="7.2713423e-09"
+        iyy="1.4226184e-04"
+        iyz="2.7066590e-07"
+        izz="1.3122537e-03" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra4.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra4.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- right wrist pitch joint -->
+  <joint name="RWrist_Pitch" type="revolute">
+    <origin
+      xyz="0 -0.08745 0"
+      rpy="0 0 0" />
+    <parent
+      link="RElbow_Yaw" />
+    <child
+      link="RWrist_Pitch" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      effort="1000"
+      velocity="100"
+      lower="${-pi*0.9}"
+      upper="${pi*0.9}" />
+    <dynamics
+      damping="0.1"
+      friction="0.0" />
+  </joint>
+  <xacro:insert_transmission name="RWrist_Pitch" />
+
+  <!-- right wrist pitch link -->
+  <link name="RWrist_Pitch">
+    <inertial>
+      <origin
+        xyz="4.0281206e-04 -5.8804030e-02 0.0"
+        rpy="0 0 0" />
+      <mass
+        value="1.3034150e-01" />
+      <inertia
+        ixx="5.3537399e-04"
+        ixy="3.4499040e-06"
+        ixz="0.0"
+        iyy="2.8340595e-05"
+        iyz="0.0"
+        izz="8.2859645e-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra5.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra5.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- right wrist roll joint -->
+  <joint name="RWrist_Roll" type="revolute">
+    <origin
+      xyz="0 -0.07655 0"
+      rpy="0 0 0" />
+    <parent
+      link="RWrist_Pitch" />
+    <child
+      link="RWrist_Roll" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      effort="1000"
+      velocity="100"
+      lower="${-pi*0.9}"
+      upper="${pi*0.9}" />
+    <dynamics
+      damping="0.1"
+      friction="0.0" />
+  </joint>
+  <xacro:insert_transmission name="RWrist_Roll" />
+
+  <!-- right wrist roll link -->
+  <link name="RWrist_Roll">
+    <inertial>
+      <origin
+        xyz="-1.8349932e-04 -5.6144496e-02 -4.1957881e-04"
+        rpy="0 0 0" />
+      <mass
+        value="2.7446277e-01" />
+      <inertia
+        ixx="1.1260251e-03"
+        ixy="-3.3427263e-06"
+        ixz="-2.4984424e-05"
+        iyy="2.1609604e-04"
+        iyz="-1.0322979e-05"
+        izz="1.0780524e-03" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra6-2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/arm/ra6-2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- end effect point -->
+  <joint name="right_end_effect_point" type="fixed">
+    <origin xyz="0.0 -0.109 0.0" rpy="0 0 0"/>
+    <parent link="RWrist_Roll"/>
+    <child link="right_end_effect_point"/>
+  </joint>
+
+  <!-- end effect point -->
+  <link name="right_end_effect_point">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.01 0.01 0.01" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.8 0.0 0.0 1.0" />
+      </material>
+     </visual>
+
+    <inertial>
+      <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+      <mass value="0.001"/>
+      <inertia ixx="1.0e-06" ixy="0.0" ixz="0.0" iyy="1.0e-06" iyz="0.0" izz="1.0e-06" />
+    </inertial>
+  </link>
+
+  <!-- lhand link -->
+  <xacro:social_robot_r_hand parent="RWrist_Roll" />
+
+  </xacro:macro>
+
+</robot>

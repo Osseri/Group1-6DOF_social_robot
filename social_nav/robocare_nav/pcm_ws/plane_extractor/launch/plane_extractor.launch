@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<launch>			
+	<!-- 3D Depth launch-->
+	<node pkg="tf" type="static_transform_publisher" name="astra_broadcaster" args="0 0 0 0 0 0 1 base_link astra 50" />		
+	<node pkg="plane_extractor" type="plane_extractor" name="plane_extractor">
+		<param name="frame_id" value="astra"/>
+		<param name="min_x" value="0.1"/>
+		<param name="max_x" value="3.0"/>
+		<param name="min_y" value="-5.0"/>
+		<param name="max_y" value="5.0"/>
+		<param name="min_z" value="0.0"/>
+		<param name="max_z" value="1.5"/>		
+	</node>
+	    	
+</launch>

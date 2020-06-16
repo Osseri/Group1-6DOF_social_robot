@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>social_robot_description</name>
+  <version>2.0.1</version>
+  <description>
+    Social robot 3D model description for visualization and simulation
+  </description>
+  <license>Apache 2.0</license>
+  <author email="hjkim@robotis.com">Hye-Jong KIM</author>
+  <maintainer email="hjkim@robotis.com">Hye-Jong KIM</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>joint_state_publisher</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+  <depend>urdf</depend>
+</package>
+

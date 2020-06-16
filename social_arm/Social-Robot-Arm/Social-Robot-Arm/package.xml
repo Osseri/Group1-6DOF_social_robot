@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>Social-Robot-Arm</name>
+  <version>2.0.0</version>
+  <description>
+    Social Robot Arm Control Package
+  </description>
+  <license>Apache 2.0</license>
+  <author email="hjkim@robotis.com">Hye-Jong KIM</author>
+  <maintainer email="hjkim@robotis.com">Hye-Jong KIM</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>social_robot_arm_control_gui</exec_depend>
+  <exec_depend>social_robot_arm_controller</exec_depend>
+  <exec_depend>social_robot_description</exec_depend>
+  <exec_depend>social_robot_arm_libs</exec_depend>
+  <exec_depend>social_robot_arm_moveit</exec_depend>
+  <exec_depend>social_robot_gazebo</exec_depend>
+  <exec_depend>social_robot_arm_msgs</exec_depend>
+  <export><metapackage/></export>
+</package>

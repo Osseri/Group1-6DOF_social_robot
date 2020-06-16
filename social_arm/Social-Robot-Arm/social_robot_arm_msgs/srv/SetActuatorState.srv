@@ -1,0 +1,4 @@
+string planning_group
+bool set_actuator_state
+---
+bool is_planned

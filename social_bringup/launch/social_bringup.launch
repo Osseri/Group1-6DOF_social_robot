@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- core -->
+    <node name="rosseiral_core" pkg="rosserial_python" type="serial_node.py" output="screen">
+        <param name="port" type="string" value="/dev/ttyACM0" />
+        <param name="baud" type="int" value="57600" />
+    </node>
+
+    <!-- arm -->
+    <!-- include file="$(find social_robot_arm_controller)/launch/social_robot_arm_controller.launch" /-->
+    <node name="avatar" pkg="social_avatar" type="social_avatar" />
+    <node name="tts" pkg="robocare_tts" type="robocare_tts" />
+    <node name="sound" pkg="robocare_sound" type="sound_node" />
+</launch>

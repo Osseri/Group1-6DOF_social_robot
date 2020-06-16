@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>social_robot_arm_msgs</name>
+  <version>1.0.0</version>
+  <description>
+    Messages and services package for ROBOTIS Manipulator to send information about state or pose
+  </description>
+  <license>Apache 2.0</license>
+  <author email="thlim@robotis.com">Darby Lim</author>
+  <author email="hjkim@robotis.com">Hye-Jong KIM</author>
+  <author email="jhshim@robotis.com">Ryan Shim</author>
+  <author email="yhna@robotis.com">Yong-Ho Na</author>
+  <maintainer email="pyo@robotis.com">Pyo</maintainer>
+  <maintainer email="hjkim@robotis.com">Hye-Jong KIM</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+</package>

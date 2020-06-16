@@ -1,0 +1,198 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- left hand -->
+  <xacro:macro name="social_robot_l_hand" params="parent">
+
+  <!-- left finger 1 joint -->
+  <joint name="LFinger_1" type="revolute">
+    <origin
+      xyz="0.027 0.07275 0.0113"
+      rpy="0 0 0" />
+    <parent
+      link="${parent}" />
+    <child
+      link="LFinger_1" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      effort="1000"
+      velocity="100"
+      lower="${-pi*0.9}"
+      upper="${pi*0.9}" />
+    <dynamics
+      damping="0.1"
+      friction="0.0" />
+  </joint>
+  <xacro:insert_transmission name="LFinger_1" />
+
+  <!-- left finger 1 link -->
+  <link name="LFinger_1">
+    <inertial>
+      <origin
+        xyz="-8.2704221e-03 4.8253759e-02 1.0973580e-02"
+        rpy="0 0 0" />
+      <mass
+        value="1.7073271e-02" />
+      <inertia
+        ixx="4.9993780e-05"
+        ixy="7.3320922e-06"
+        ixz="1.6291877e-06"
+        iyy="4.6481624e-06"
+        iyz="-8.4785956e-06"
+        izz="4.8754194e-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/hand/lf1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/hand/lf1.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- left finger 2 joint -->
+  <joint name="LFinger_2" type="revolute">
+    <origin
+      xyz="-0.014 0.07275 0.0113"
+      rpy="0 0 0" />
+    <parent
+      link="${parent}" />
+    <child
+      link="LFinger_2" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      effort="1000"
+      velocity="100"
+      lower="${-pi*0.9}"
+      upper="${pi*0.9}" />
+    <dynamics
+      damping="0.1"
+      friction="0.0" />
+  </joint>
+  <xacro:insert_transmission name="LFinger_2" />
+
+  <!-- left finger 2 link -->
+  <link name="LFinger_2">
+    <inertial>
+      <origin
+        xyz="5.2010384e-03 4.7810269e-02 1.0862160e-02"
+        rpy="0 0 0" />
+      <mass
+        value="1.7225011e-02" />
+      <inertia
+        ixx="4.9997716e-05"
+        ixy="4.8602561e-06"
+        ixz="-1.0665523e-06"
+        iyy="3.9576862e-06"
+        iyz="-8.4761831e-06"
+        izz="4.8062973e-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/hand/lf2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/hand/lf2.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- left finger 3 joint -->
+  <joint name="LFinger_3" type="revolute">
+    <origin
+      xyz="-0.0305 0.07275 -0.02112"
+      rpy="0 0 0" />
+    <parent
+      link="${parent}" />
+    <child
+      link="LFinger_3" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      effort="1000"
+      velocity="100"
+      lower="${-pi*0.9}"
+      upper="${pi*0.9}" />
+    <dynamics
+      damping="0.1"
+      friction="0.0" />
+  </joint>
+  <xacro:insert_transmission name="LFinger_3" />
+
+  <!-- left finger 3 link -->
+  <link name="LFinger_3">
+    <inertial>
+      <origin
+        xyz="2.7413473e-02 4.7251197e-02 -9.9474237e-03"
+        rpy="0 0 0" />
+      <mass
+        value="4.0458040e-02" />
+      <inertia
+        ixx="1.1427275e-04"
+        ixy="-5.3019501e-05"
+        ixz="1.1103006e-05"
+        iyy="5.3733214e-05"
+        iyz="1.7007112e-05"
+        izz="1.5502670e-04" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/hand/lf3.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://social_robot_description/meshes/hand/lf3.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  </xacro:macro>
+
+</robot>

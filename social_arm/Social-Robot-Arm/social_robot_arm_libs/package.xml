@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package format="2">
+  <name>social_robot_arm_libs</name>
+  <version>2.0.1</version>
+  <description>
+    Social Robot Arm library (Kinematics lib., Dynamixel lib., Drawing path lib.)
+  </description>
+  <license>Apache 2.0</license>
+  <author email="hjkim@robotis.com">Hye-Jong KIM</author>
+  <maintainer email="hjkim@robotis.com">Hye-Jong KIM</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>robotis_manipulator</depend>
+  <depend>dynamixel_workbench_toolbox</depend>
+  <depend>cmake_modules</depend>
+  <depend>eigen</depend>
+</package>

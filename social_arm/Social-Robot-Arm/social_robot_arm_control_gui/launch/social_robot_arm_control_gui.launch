@@ -1,0 +1,8 @@
+<launch>
+  <arg name="robot_name"   default="social_robot"/>
+
+  <group ns="$(arg robot_name)">
+    <node name="control_gui" pkg="social_robot_arm_control_gui" type="social_robot_arm_control_gui" output="screen">
+    </node>
+  </group>
+</launch>

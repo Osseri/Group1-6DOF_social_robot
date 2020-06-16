@@ -1,0 +1,17 @@
+controller_list:
+  - name: fake_left_arm_controller
+    joints:
+      - LShoulder_Pitch
+      - LShoulder_Roll
+      - LElbow_Pitch
+      - LElbow_Yaw
+      - LWrist_Pitch
+      - LWrist_Roll
+  - name: fake_right_arm_controller
+    joints:
+      - RShoulder_Pitch
+      - RShoulder_Roll
+      - RElbow_Pitch
+      - RElbow_Yaw
+      - RWrist_Pitch
+      - RWrist_Roll

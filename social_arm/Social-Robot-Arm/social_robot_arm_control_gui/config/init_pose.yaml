@@ -1,0 +1,31 @@
+# time parameter
+
+mov_time : 3.0		# movement time
+
+# target angle [deg]
+
+left_arm_joint_angle :
+  LShoulder_Pitch  : 0.0
+  LShoulder_Roll   : -80.0
+  LElbow_Pitch     : 0.0
+  LElbow_Yaw       : -80.0
+  LWrist_Pitch     : 45.0
+  LWrist_Roll      : 0.0
+
+left_arm_end_effector_angle :
+  LFinger_1        : 0.0
+  LFinger_2        : 0.0
+  LFinger_3        : 0.0
+
+right_arm_joint_angle :
+  RShoulder_Pitch  : 0.0
+  RShoulder_Roll   : 80.0
+  RElbow_Pitch     : 0.0
+  RElbow_Yaw       : 80.0
+  RWrist_Pitch     : 45.0
+  RWrist_Roll      : 0.0
+
+right_arm_end_effector_angle :
+  RFinger_1        : 0.0
+  RFinger_2        : 0.0
+  RFinger_3        : 0.0

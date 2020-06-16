@@ -1,0 +1,446 @@
+motion_size : 100
+repeat_cnt : 0
+
+0:
+  left_arm :
+    LShoulder_Pitch  : 0.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : -80.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 0.0
+    LFinger_3        : 0.0
+  right_arm :
+    RShoulder_Pitch  : 0.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : 45.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : 0.0
+    RFinger_2        : 0.0
+    RFinger_3        : 0.0
+  mov_time : 2.0
+
+###############################################
+
+10:
+  left_arm :
+    LShoulder_Pitch  : 5.0
+    LShoulder_Roll   : -65.0
+    LElbow_Pitch     : 30.0
+    LElbow_Yaw       : -50.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 0.0
+    LFinger_3        : 0.0
+  right_arm :
+    RShoulder_Pitch  : -80.0
+    RShoulder_Roll   : 75.0
+    RElbow_Pitch     : -35.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -35.0
+    RWrist_Roll      : -10.0
+    RFinger_1        : -10.0
+    RFinger_2        : -10.0
+    RFinger_3        : 10.0
+  mov_time : 2.0
+
+11:
+  left_arm :
+    LShoulder_Pitch  : 5.0
+    LShoulder_Roll   : -65.0
+    LElbow_Pitch     : 30.0
+    LElbow_Yaw       : -50.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 0.0
+    LFinger_3        : 0.0
+  right_arm :
+    RShoulder_Pitch  : -80.0
+    RShoulder_Roll   : 75.0
+    RElbow_Pitch     : 45.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -35.0
+    RWrist_Roll      : 10.0
+    RFinger_1        : -10.0
+    RFinger_2        : -10.0
+    RFinger_3        : 10.0
+  mov_time : 1.5
+
+12:
+  left_arm :
+    LShoulder_Pitch  : 5.0
+    LShoulder_Roll   : -65.0
+    LElbow_Pitch     : 30.0
+    LElbow_Yaw       : -50.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 0.0
+    LFinger_3        : 0.0
+  right_arm :
+    RShoulder_Pitch  : -80.0
+    RShoulder_Roll   : 75.0
+    RElbow_Pitch     : -35.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -35.0
+    RWrist_Roll      : -10.0
+    RFinger_1        : -10.0
+    RFinger_2        : -10.0
+    RFinger_3        : 10.0
+  mov_time : 1.2
+
+13:
+  left_arm :
+    LShoulder_Pitch  : 5.0
+    LShoulder_Roll   : -65.0
+    LElbow_Pitch     : 30.0
+    LElbow_Yaw       : -50.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 0.0
+    LFinger_3        : 0.0
+  right_arm :
+    RShoulder_Pitch  : -80.0
+    RShoulder_Roll   : 75.0
+    RElbow_Pitch     : 45.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -35.0
+    RWrist_Roll      : 10.0
+    RFinger_1        : -10.0
+    RFinger_2        : -10.0
+    RFinger_3        : 10.0
+  mov_time : 1.2
+
+14:
+  left_arm :
+    LShoulder_Pitch  : 5.0
+    LShoulder_Roll   : -65.0
+    LElbow_Pitch     : 30.0
+    LElbow_Yaw       : -50.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 0.0
+    LFinger_3        : 0.0
+  right_arm :
+    RShoulder_Pitch  : -80.0
+    RShoulder_Roll   : 75.0
+    RElbow_Pitch     : -35.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -35.0
+    RWrist_Roll      : -10.0
+    RFinger_1        : -10.0
+    RFinger_2        : -10.0
+    RFinger_3        : 10.0
+  mov_time : 1.2
+
+15:
+  left_arm :
+    LShoulder_Pitch  : 5.0
+    LShoulder_Roll   : -65.0
+    LElbow_Pitch     : 30.0
+    LElbow_Yaw       : -50.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 0.0
+    LFinger_3        : 0.0
+  right_arm :
+    RShoulder_Pitch  : -80.0
+    RShoulder_Roll   : 75.0
+    RElbow_Pitch     : 45.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -35.0
+    RWrist_Roll      : 10.0
+    RFinger_1        : -10.0
+    RFinger_2        : -10.0
+    RFinger_3        : 10.0
+  mov_time : 1.2
+
+16:
+  left_arm :
+    LShoulder_Pitch  : 5.0
+    LShoulder_Roll   : -65.0
+    LElbow_Pitch     : 30.0
+    LElbow_Yaw       : -50.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 0.0
+    LFinger_3        : 0.0
+  right_arm :
+    RShoulder_Pitch  : -80.0
+    RShoulder_Roll   : 75.0
+    RElbow_Pitch     : -35.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -35.0
+    RWrist_Roll      : -10.0
+    RFinger_1        : -10.0
+    RFinger_2        : -10.0
+    RFinger_3        : 10.0
+  mov_time : 1.2
+#############################################
+
+20:
+  left_arm :
+    LShoulder_Pitch  : 0.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : -80.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 15.0
+    LFinger_3        : 15.0
+  right_arm :
+    RShoulder_Pitch  : 0.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : 45.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : 0.0
+    RFinger_2        : 15.0
+    RFinger_3        : -15.0
+  mov_time : 2.0
+
+21:
+  left_arm :
+    LShoulder_Pitch  : 0.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : -80.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 15.0
+    LFinger_3        : 15.0
+  right_arm :
+    RShoulder_Pitch  : -90.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 0.0
+    RWrist_Pitch     : 90.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : 0.0
+    RFinger_2        : 15.0
+    RFinger_3        : -15.0
+  mov_time : 1.2
+
+22:
+  left_arm :
+    LShoulder_Pitch  : -90.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : 0.0
+    LWrist_Pitch     : 90.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 15.0
+    LFinger_3        : 15.0
+  right_arm :
+    RShoulder_Pitch  : 0.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : 45.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : 0.0
+    RFinger_2        : 15.0
+    RFinger_3        : -15.0
+  mov_time : 1.2
+
+23:
+  left_arm :
+    LShoulder_Pitch  : 0.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : -80.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 15.0
+    LFinger_3        : 15.0
+  right_arm :
+    RShoulder_Pitch  : -90.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 0.0
+    RWrist_Pitch     : 90.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : 0.0
+    RFinger_2        : 15.0
+    RFinger_3        : -15.0
+  mov_time : 1.2
+
+24:
+  left_arm :
+    LShoulder_Pitch  : -90.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : 0.0
+    LWrist_Pitch     : 90.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 15.0
+    LFinger_3        : 15.0
+  right_arm :
+    RShoulder_Pitch  : 0.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : 45.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : 0.0
+    RFinger_2        : 15.0
+    RFinger_3        : -15.0
+  mov_time : 1.2
+
+#############################################
+30:
+  left_arm :
+    LShoulder_Pitch  : 0.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : -80.0
+    LWrist_Pitch     : 45.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 0.0
+    LFinger_3        : 0.0
+  right_arm :
+    RShoulder_Pitch  : 0.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : 45.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : 0.0
+    RFinger_2        : 0.0
+    RFinger_3        : 0.0
+  mov_time : 2.0
+
+31:
+  left_arm :
+    LShoulder_Pitch  : -10.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : -80.0
+    LWrist_Pitch     : -10.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 0.0
+    LFinger_3        : 0.0
+  right_arm :
+    RShoulder_Pitch  : -10.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -10.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : 0.0
+    RFinger_2        : 0.0
+    RFinger_3        : 0.0
+  mov_time : 2.0
+
+32:
+  left_arm :
+    LShoulder_Pitch  : -10.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : -80.0
+    LWrist_Pitch     : -10.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : -15.0
+    LFinger_2        : -15.0
+    LFinger_3        : -15.0
+  right_arm :
+    RShoulder_Pitch  : -10.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -10.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : -15.0
+    RFinger_2        : -15.0
+    RFinger_3        : 15.0
+  mov_time : 3.0
+
+33:
+  left_arm :
+    LShoulder_Pitch  : -10.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : -80.0
+    LWrist_Pitch     : -10.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 0.0
+    LFinger_2        : 15.0
+    LFinger_3        : 15.0
+  right_arm :
+    RShoulder_Pitch  : -10.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -10.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : 0.0
+    RFinger_2        : 15.0
+    RFinger_3        : -15.0
+  mov_time : 3.0
+
+34:
+  left_arm :
+    LShoulder_Pitch  : -10.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : -80.0
+    LWrist_Pitch     : -10.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : -15.0
+    LFinger_2        : -15.0
+    LFinger_3        : -15.0
+  right_arm :
+    RShoulder_Pitch  : -10.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -10.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : -15.0
+    RFinger_2        : -15.0
+    RFinger_3        : 15.0
+  mov_time : 1.0
+
+35:
+  left_arm :
+    LShoulder_Pitch  : -10.0
+    LShoulder_Roll   : -80.0
+    LElbow_Pitch     : 0.0
+    LElbow_Yaw       : -80.0
+    LWrist_Pitch     : -10.0
+    LWrist_Roll      : 0.0
+    LFinger_1        : 6.0
+    LFinger_2        : 0.0
+    LFinger_3        : 6.0
+  right_arm :
+    RShoulder_Pitch  : -10.0
+    RShoulder_Roll   : 80.0
+    RElbow_Pitch     : 0.0
+    RElbow_Yaw       : 80.0
+    RWrist_Pitch     : -10.0
+    RWrist_Roll      : 0.0
+    RFinger_1        : 6.0
+    RFinger_2        : 0.0
+    RFinger_3        : -6.0
+  mov_time : 3.0
+
+############################################
+

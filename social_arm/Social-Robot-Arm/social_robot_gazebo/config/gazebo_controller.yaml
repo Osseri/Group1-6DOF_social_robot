@@ -1,0 +1,128 @@
+gazebo_ros_control:
+  pid_gains:
+    LShoulder_Pitch:
+      p: 100000.0
+      i: 1000.0
+      d: 100.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    LShoulder_Roll:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    LElbow_Pitch:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    LElbow_Yaw:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    LWrist_Pitch:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    LWrist_Roll:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    LFinger_1:
+      p: 100000.0
+      i: 250.0
+      d: 1000.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    LFinger_2:
+      p: 100000.0
+      i: 250.0
+      d: 1000.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    LFinger_3:
+      p: 100000.0
+      i: 250.0
+      d: 1000.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    RShoulder_Pitch:
+      p: 100000.0
+      i: 1000.0
+      d: 100.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    RShoulder_Roll:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    RElbow_Pitch:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    RElbow_Yaw:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    RWrist_Pitch:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    RWrist_Roll:
+      p: 100000.0
+      i: 1000.0
+      d: 500.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    RFinger_1:
+      p: 100000.0
+      i: 250.0
+      d: 1000.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    RFinger_2:
+      p: 100000.0
+      i: 250.0
+      d: 1000.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
+    RFinger_3:
+      p: 100000.0
+      i: 250.0
+      d: 1000.0
+      i_clamp: 0.2
+      antiwindup: false
+      publish_state: true
